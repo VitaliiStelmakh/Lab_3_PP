@@ -1,0 +1,7 @@
+Hero BattleDroid health = 150 Enemy Droideka health = 100
+--------------------------------------------------------------------------------------
+Attacker Hero BattleDroid damaged 55 Defender Enemy Droideka
+Attacker health = 150 Defender health = 45
+--------------------------------------------------------------------------------------
+Attacker Enemy Droideka damaged 150 Defender Hero BattleDroid
+Attacker Enemy Droideka with 45 health winner of this battle!
