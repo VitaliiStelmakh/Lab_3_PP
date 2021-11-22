@@ -1,7 +1,28 @@
-Hero BattleDroid health = 150 Enemy Droideka health = 100
+DroidDefender health = 400 BattleDroid health = 150
 --------------------------------------------------------------------------------------
-Attacker Hero BattleDroid damaged 55 Defender Enemy Droideka
-Attacker health = 150 Defender health = 45
+Attacker DroidDefender damaged 21 Defender BattleDroid
+Attacker health = 400 Defender health = 129
 --------------------------------------------------------------------------------------
-Attacker Enemy Droideka damaged 150 Defender Hero BattleDroid
-Attacker Enemy Droideka with 45 health winner of this battle!
+Attacker BattleDroid damaged 55 Defender DroidDefender
+Attacker health = 129 Defender health = 345
+--------------------------------------------------------------------------------------
+Attacker DroidDefender damaged 29 Defender BattleDroid
+Attacker health = 345 Defender health = 100
+--------------------------------------------------------------------------------------
+Attacker BattleDroid damaged 29 Defender DroidDefender
+Attacker health = 100 Defender health = 316
+--------------------------------------------------------------------------------------
+Attacker DroidDefender damaged 29 Defender BattleDroid
+Attacker health = 316 Defender health = 71
+--------------------------------------------------------------------------------------
+Attacker BattleDroid damaged 46 Defender DroidDefender
+Attacker health = 71 Defender health = 270
+--------------------------------------------------------------------------------------
+Attacker DroidDefender damaged 37 Defender BattleDroid
+Attacker health = 270 Defender health = 34
+--------------------------------------------------------------------------------------
+Attacker BattleDroid damaged 48 Defender DroidDefender
+Attacker health = 34 Defender health = 270
+--------------------------------------------------------------------------------------
+Attacker DroidDefender damaged 41 Defender BattleDroid
+Attacker DroidDefender with 270 health winner of this battle!

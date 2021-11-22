@@ -1,5 +1,4 @@
 package Controller;
-
 import BattleLogger.BattleLog;
 import Model.BattleDroid;
 import Model.Droid;
