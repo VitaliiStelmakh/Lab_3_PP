@@ -19,14 +19,12 @@ public class Main {
             System.out.println("2 - Start team vs team droid battle");
             System.out.println("3 - Print last log droid battle");
             System.out.println("0 - Exit");
-            choose =1;// scanner.nextInt();
-
-
+            choose  = scanner.nextInt();
             switch (choose) {
+
                 case 1: {
                     arena = new Battle1vs1();
                     arena.Start();
-                    choose=0;
                     break;
                 }
 //                case 2: {

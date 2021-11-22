@@ -3,6 +3,7 @@ package Controller;
 import BattleLogger.BattleLog;
 import Model.BattleDroid;
 import Model.Droid;
+import Model.DroidDefender;
 import Model.Droideka;
 
 import java.util.Random;
@@ -14,20 +15,45 @@ public class Battle1vs1 extends Battle {
 
    Droid attacker = null;
    Droid defender = null;
-
+   Droid hero=null;
+   Droid enemy=null;
     public void Start() {
-        int r =1; //random.nextInt(1) + 1;
-        System.out.println("Choose a droid (1 - Warrior, 2 - Rogue, 3 - Mage) :");
-      //  int choose = scanner.nextInt();
-        Droid hero = new BattleDroid();
-        hero.setName("Hero " + hero.getName());
-        Droid enemy = new Droideka();
-        enemy.setName("Enemy "+ enemy.getName());
+        int r = random.nextInt(3) + 1;
+        System.out.println("Choose droid (1 - BattleDroid, 2 - Droideka, 3 - DroidDefender) :");
+        int choose=0;
+        while (true) {
+            choose = scanner.nextInt();
+            if(choose==1 ||choose==2||choose==3)
+            {
+                hero = ChooseDroid(choose, hero);
+                enemy = ChooseDroid(r, enemy);
+                Battle(hero, enemy);
+                break;
+            }
+            else
+            {
+                System.out.println("Please choose droid from list");
+            }
+        }
+    }
+    public Droid ChooseDroid(int choose, Droid droid)
+    {
+        switch (choose) {
+            case 1: {
+                droid = new BattleDroid();
+                break;
+            }
+            case 2: {
+                droid = new Droideka();
+                break;
+            }
+            case 3: {
+                droid = new DroidDefender();
+                break;
+            }
+        }
 
-
-
-
-        Battle(hero, enemy);
+        return droid;
     }
 
 
