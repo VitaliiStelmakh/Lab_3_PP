@@ -23,6 +23,10 @@ public class Battle1vs1 extends Battle {
         hero.setName("Hero " + hero.getName());
         Droid enemy = new Droideka();
         enemy.setName("Enemy "+ enemy.getName());
+
+
+
+
         Battle(hero, enemy);
     }
 

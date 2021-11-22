@@ -38,4 +38,5 @@ public abstract class Droid {
 
     public abstract void Attack();
     public abstract void Defense(int damage);
+
 }
