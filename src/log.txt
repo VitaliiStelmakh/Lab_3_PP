@@ -1,28 +1,262 @@
-BattleDroid health = 150 DroidDefender health = 400
+Hero team											Enemy team
 --------------------------------------------------------------------------------------
-Attacker DroidDefender damaged 32 Defender BattleDroid
-Attacker health = 400 Defender health = 118
+Hero BattleDroid health = 150 energy = 20		Enemy Droideka health = 100 energy = 20
+Hero DroidMedic health = 100 energy = 30		Enemy Droideka health = 100 energy = 30
+Hero ArmorDroid health = 300 energy = 30		Enemy ArmorDroid health = 300 energy = 30
 --------------------------------------------------------------------------------------
-Attacker BattleDroid damaged 20 Defender DroidDefender
-Attacker health = 118 Defender health = 400
+Attacker Droideka damaged 150 Defender DroidMedic
+
+
+Attacker Droideka killed  Defender DroidMedic
+
+
+Attacker Droideka health = 100 energy = 30
+Attacker Droideka health = 100 energy = 20
+Attacker ArmorDroid health = 300 energy = 30
+
+
+Defender BattleDroid health = 150 energy = 20
+Defender ArmorDroid health = 300 energy = 30
 --------------------------------------------------------------------------------------
-Attacker DroidDefender damaged 43 Defender BattleDroid
-Attacker health = 400 Defender health = 75
+Attacker ArmorDroid damaged 47 Defender Droideka
+
+
+Attacker BattleDroid health = 150 energy = 20
+Attacker ArmorDroid health = 300 energy = 30
+
+
+Defender Droideka health = 100 energy = 30
+Defender Droideka health = 53 energy = 20
+Defender ArmorDroid health = 300 energy = 30
 --------------------------------------------------------------------------------------
-Attacker BattleDroid damaged 22 Defender DroidDefender
-Attacker health = 75 Defender health = 378
+Attacker Droideka damaged 56 Defender ArmorDroid
+
+
+Attacker Droideka health = 100 energy = 30
+Attacker Droideka health = 53 energy = 20
+Attacker ArmorDroid health = 300 energy = 30
+
+
+Defender BattleDroid health = 150 energy = 20
+Defender ArmorDroid health = 300 energy = 30
 --------------------------------------------------------------------------------------
-Attacker DroidDefender damaged 31 Defender BattleDroid
-Attacker health = 378 Defender health = 44
+Attacker ArmorDroid damaged 23 Defender ArmorDroid
+
+
+Attacker BattleDroid health = 150 energy = 20
+Attacker ArmorDroid health = 300 energy = 30
+
+
+Defender Droideka health = 100 energy = 30
+Defender Droideka health = 53 energy = 20
+Defender ArmorDroid health = 277 energy = 30
 --------------------------------------------------------------------------------------
-Attacker BattleDroid damaged 43 Defender DroidDefender
-Attacker health = 44 Defender health = 335
+Attacker ArmorDroid damaged 32 Defender ArmorDroid
+
+
+Attacker Droideka health = 100 energy = 30
+Attacker Droideka health = 53 energy = 20
+Attacker ArmorDroid health = 277 energy = 30
+
+
+Defender BattleDroid health = 150 energy = 20
+Defender ArmorDroid health = 300 energy = 30
 --------------------------------------------------------------------------------------
-Attacker DroidDefender damaged 32 Defender BattleDroid
-Attacker health = 335 Defender health = 12
+Attacker BattleDroid damaged 20 Defender Droideka
+
+
+Attacker BattleDroid health = 150 energy = 20
+Attacker ArmorDroid health = 300 energy = 30
+
+
+Defender Droideka health = 100 energy = 30
+Defender Droideka health = 33 energy = 20
+Defender ArmorDroid health = 277 energy = 30
 --------------------------------------------------------------------------------------
-Attacker BattleDroid damaged 29 Defender DroidDefender
-Attacker health = 12 Defender health = 306
+Attacker ArmorDroid damaged 35 Defender BattleDroid
+
+
+Attacker Droideka health = 100 energy = 30
+Attacker Droideka health = 33 energy = 20
+Attacker ArmorDroid health = 277 energy = 30
+
+
+Defender BattleDroid health = 115 energy = 20
+Defender ArmorDroid health = 300 energy = 30
 --------------------------------------------------------------------------------------
-Attacker DroidDefender damaged 31 Defender BattleDroid
-Attacker DroidDefender with 306 health winner of this battle!
+Attacker BattleDroid damaged 24 Defender Droideka
+
+
+Attacker BattleDroid health = 115 energy = 20
+Attacker ArmorDroid health = 300 energy = 30
+
+
+Defender Droideka health = 76 energy = 30
+Defender Droideka health = 33 energy = 20
+Defender ArmorDroid health = 277 energy = 30
+--------------------------------------------------------------------------------------
+Attacker Droideka damaged 150 Defender ArmorDroid
+
+
+Attacker Droideka health = 76 energy = 30
+Attacker Droideka health = 33 energy = 10
+Attacker ArmorDroid health = 277 energy = 30
+
+
+Defender BattleDroid health = 115 energy = 20
+Defender ArmorDroid health = 150 energy = 30
+--------------------------------------------------------------------------------------
+Attacker BattleDroid damaged 21 Defender ArmorDroid
+
+
+Attacker BattleDroid health = 115 energy = 20
+Attacker ArmorDroid health = 150 energy = 30
+
+
+Defender Droideka health = 76 energy = 30
+Defender Droideka health = 33 energy = 10
+Defender ArmorDroid health = 256 energy = 30
+--------------------------------------------------------------------------------------
+Attacker Droideka damaged 68 Defender BattleDroid
+
+
+Attacker Droideka health = 76 energy = 30
+Attacker Droideka health = 33 energy = 10
+Attacker ArmorDroid health = 256 energy = 30
+
+
+Defender BattleDroid health = 47 energy = 20
+Defender ArmorDroid health = 150 energy = 30
+--------------------------------------------------------------------------------------
+Attacker ArmorDroid damaged 30 Defender Droideka
+
+
+Attacker BattleDroid health = 47 energy = 20
+Attacker ArmorDroid health = 150 energy = 30
+
+
+Defender Droideka health = 76 energy = 30
+Defender Droideka health = 3 energy = 10
+Defender ArmorDroid health = 256 energy = 30
+--------------------------------------------------------------------------------------
+Attacker Droideka damaged 63 Defender ArmorDroid
+
+
+Attacker Droideka health = 76 energy = 30
+Attacker Droideka health = 3 energy = 10
+Attacker ArmorDroid health = 256 energy = 30
+
+
+Defender BattleDroid health = 47 energy = 20
+Defender ArmorDroid health = 87 energy = 30
+--------------------------------------------------------------------------------------
+Attacker BattleDroid damaged 55 Defender ArmorDroid
+
+
+Attacker BattleDroid health = 47 energy = 15
+Attacker ArmorDroid health = 87 energy = 30
+
+
+Defender Droideka health = 76 energy = 30
+Defender Droideka health = 3 energy = 10
+Defender ArmorDroid health = 256 energy = 30
+--------------------------------------------------------------------------------------
+Attacker Droideka damaged 150 Defender BattleDroid
+
+
+Attacker Droideka killed  Defender BattleDroid
+
+
+Attacker Droideka health = 76 energy = 30
+Attacker Droideka health = 3 energy = 0
+Attacker ArmorDroid health = 256 energy = 30
+
+
+Defender ArmorDroid health = 87 energy = 30
+--------------------------------------------------------------------------------------
+Attacker ArmorDroid damaged 35 Defender Droideka
+
+
+Attacker ArmorDroid health = 87 energy = 30
+
+
+Defender Droideka health = 41 energy = 30
+Defender Droideka health = 3 energy = 0
+Defender ArmorDroid health = 256 energy = 30
+--------------------------------------------------------------------------------------
+Attacker Droideka damaged 150 Defender ArmorDroid
+
+
+Attacker Droideka health = 41 energy = 20
+Attacker Droideka health = 3 energy = 0
+Attacker ArmorDroid health = 256 energy = 30
+
+
+Defender ArmorDroid health = 87 energy = 30
+--------------------------------------------------------------------------------------
+Attacker ArmorDroid damaged 42 Defender ArmorDroid
+
+
+Attacker ArmorDroid health = 87 energy = 30
+
+
+Defender Droideka health = 41 energy = 20
+Defender Droideka health = 3 energy = 0
+Defender ArmorDroid health = 214 energy = 30
+--------------------------------------------------------------------------------------
+Attacker Droideka damaged 30 Defender ArmorDroid
+
+
+Attacker Droideka health = 41 energy = 20
+Attacker Droideka health = 3 energy = 0
+Attacker ArmorDroid health = 214 energy = 30
+
+
+Defender ArmorDroid health = 87 energy = 30
+--------------------------------------------------------------------------------------
+Attacker ArmorDroid damaged 36 Defender Droideka
+
+
+Attacker ArmorDroid health = 87 energy = 30
+
+
+Defender Droideka health = 5 energy = 20
+Defender Droideka health = 3 energy = 0
+Defender ArmorDroid health = 214 energy = 30
+--------------------------------------------------------------------------------------
+Attacker ArmorDroid damaged 49 Defender ArmorDroid
+
+
+Attacker Droideka health = 5 energy = 20
+Attacker Droideka health = 3 energy = 0
+Attacker ArmorDroid health = 214 energy = 30
+
+
+Defender ArmorDroid health = 38 energy = 30
+--------------------------------------------------------------------------------------
+Attacker ArmorDroid damaged 27 Defender ArmorDroid
+
+
+Attacker ArmorDroid health = 38 energy = 30
+
+
+Defender Droideka health = 5 energy = 20
+Defender Droideka health = 3 energy = 0
+Defender ArmorDroid health = 187 energy = 30
+--------------------------------------------------------------------------------------
+Attacker Droideka damaged 66 Defender ArmorDroid
+
+
+Attacker Droideka killed  Defender ArmorDroid
+
+
+Attacker Droideka health = 5 energy = 20
+Attacker Droideka health = 3 energy = 0
+Attacker ArmorDroid health = 187 energy = 30
+
+
+--------------------------------------------------------------------------------------
+Enemy team wins this battle!
+Attacker Droideka health = 5
+Attacker Droideka health = 3
+Attacker ArmorDroid health = 187

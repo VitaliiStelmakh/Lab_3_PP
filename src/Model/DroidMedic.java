@@ -14,13 +14,13 @@ public class DroidMedic extends Droid{
     @Override
     public void Attack() {
         if (energy < 10)
-            this.setDamage((random.nextInt(50)+20 )*(-1));
+            this.setDamage((random.nextInt(20)+5 )*(-1));
         else {
             if (random.nextInt(2) == 0)
-                this.setDamage((random.nextInt((50) + 20))*(-1));
+                this.setDamage((random.nextInt(20)+5)*(-1));
             else {
                 System.out.println("Super power");
-                this.setDamage(-150);
+                this.setDamage(-50);
                 this.setEnergy(this.getEnergy() - 10);
             }
         }

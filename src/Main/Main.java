@@ -2,6 +2,7 @@ package Main;
 import Controller.Battle;
 import Controller.Battle1vs1;
 import BattleLogger.BattleLog;
+import Controller.BattleTeamVsTeam;
 
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class Main {
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         String log;
-        Battle arena;
+        Battle battle;
         int choose = 256;
         BattleLog logger = new BattleLog();
 
@@ -23,15 +24,15 @@ public class Main {
             switch (choose) {
 
                 case 1: {
-                    arena = new Battle1vs1();
-                    arena.Start();
+                    battle = new Battle1vs1();
+                    battle.Start();
                     break;
                 }
-//                case 2: {
-//                    arena = new ArenaTeamVsTeam();
-//                    arena.Start();
-//                    break;
-//                }
+                case 2: {
+                    battle = new BattleTeamVsTeam();
+                    battle.Start();
+                    break;
+                }
                 case 3: {
                     log = logger.GetSessionLog();
                     System.out.println(log);

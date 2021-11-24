@@ -2,14 +2,14 @@ package Model;
 
 import java.util.Random;
 
-public class DroidDefender extends Droid{
+public class ArmorDroid extends Droid{
 
     public static final Random random = new Random();
 
 
-    public DroidDefender() {
-        this.name = "DroidDefender";
-        this.health = 400;
+    public ArmorDroid() {
+        this.name = "ArmorDroid";
+        this.health = 300;
         this.energy = 30;
     }
     @Override

@@ -2,7 +2,7 @@ package Controller;
 import BattleLogger.BattleLog;
 import Model.BattleDroid;
 import Model.Droid;
-import Model.DroidDefender;
+import Model.ArmorDroid;
 import Model.Droideka;
 
 import java.util.Random;
@@ -47,7 +47,7 @@ public class Battle1vs1 extends Battle {
                 break;
             }
             case 3: {
-                droid = new DroidDefender();
+                droid = new ArmorDroid();
                 break;
             }
         }
@@ -105,7 +105,7 @@ public class Battle1vs1 extends Battle {
                     break;
                 } else {
                     System.out.println("Attacker health = " + attacker.getHealth() +" energy = "+attacker.getEnergy()+  " Defender health = " + defender.getHealth());
-                    logger.AddLog("Attacker health = " + attacker.getHealth() + " Defender health = " + defender.getHealth());
+                    logger.AddLog("Attacker health = " + attacker.getHealth() +" energy = "+attacker.getEnergy()+  " Defender health = " + defender.getHealth());
                 }
 
                 System.out.println("----------------------------------------------------------------------------------\n");
