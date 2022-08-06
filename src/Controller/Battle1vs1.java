@@ -51,7 +51,6 @@ public class Battle1vs1 extends Battle {
                 break;
             }
         }
-
         return droid;
     }
 

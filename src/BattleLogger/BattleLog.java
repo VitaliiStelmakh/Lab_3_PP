@@ -2,8 +2,6 @@ package BattleLogger;
 
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Scanner;
 
 public class BattleLog {
@@ -32,7 +30,7 @@ public class BattleLog {
             if (result.equals("")) {
                 result = "No logs in this session";
             }
-
+            scan.close();
         } catch (Exception ex) {
 
             result = ex.getMessage();
@@ -63,4 +61,5 @@ public class BattleLog {
             System.out.println(ex.getMessage());
         }
     }
+   
 }

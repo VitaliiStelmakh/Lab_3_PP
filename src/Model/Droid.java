@@ -11,11 +11,9 @@ public abstract class Droid {
     public String getName() {
         return this.name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public int getHealth() {
         return this.health;
     }
